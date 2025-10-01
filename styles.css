@@ -13,4 +13,19 @@ ul {
 li {
     border: 1px solid;
     border-radius: 12px;
+    cursor: pointer;
+    padding: 12px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grass {
+    background-color: #078e07;
+    border: 1px solid #065048;
+    box-shadow: 0px 0px 6px rgb(81, 97, 81);
+}
+.fire {
+      background-color: #8e2907;
+    border: 1px solid #d35004;
+    box-shadow: 0px 0px 6px #615251;
 }
